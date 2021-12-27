@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+li{
+	float: left;
+	list-style-type: none;
+	background-color: ;
+	font-size: 20px;
+	width:150px;
+	padding: 15px;
+	margin: 15px;
+	text-align: center;
+}
+.drop{
+	background-color:black;
+	width: 100%;
+	height: 70px;
+}
+body{
+	background-image: url(/home/zoho/Downloads/mountain.jpg);
+	background-size: cover;
+}
+li a{
+	color:white;
+	text-decoration: none;
+}.active ,li:hover {
+	background-color: skyblue;
+	border-radius: 15px;
+}
+.menu1{
+	display: none;
+	position: absolute;
+	background-color: yellow;
+	top: 55px;
+
+}
+/*.drop li:hover {
+	background-color: green;
+	border-radius: 15px;*/
+.dd{
+	position: relative;
+}.dd:hover .menu1{
+	display: block;
+}
+.menu1 li:hover{
+	background-color: red;
+}.main1{
+	display: none;
+	position: absolute;
+	background-color:gray;
+	top: 55px;
+	left:100px;
+}
+.jesi:hover .main1{
+	display: block;	
+}
+.main1 li:hover{
+	background-color:orange;
+
